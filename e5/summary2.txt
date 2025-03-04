@@ -1,0 +1,10 @@
+Summary for data-2.csv:
+Mean of x: -0.7107871267159572
+Standard Deviation of x: 11.481583587790734
+Range of x: (-33.2711130771198, 27.6470003722073)
+Mean of y: -0.7489869764497991
+Standard Deviation of y: 6.257917998755848
+Range of y: (-18.621803760419063, 14.14731499231748)
+Correlation Coefficient between x and y: 0.9551531665750373
+
+This dataset exhibits a strong positive correlation between the two values x and y, each centered around the zero value.

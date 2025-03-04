@@ -1,0 +1,22 @@
+1. There are a total of 1669 different results for each different timestamps.
+For example, 13.185763 is the predicted rating for the first timestamp, 
+and 13.480725 is the predicted rating for the last timestamp in the list.
+2       13.185763
+7       13.181785
+8       13.179609
+24      13.167614
+30      13.163804
+          ...    
+7363    13.507338
+7369    13.503856
+7381    13.498710
+7431    13.482540
+7433    13.480725
+Name: TimeStamp, Length: 1669, dtype: float64
+The type of the result is a Pandas Series, and the type for all values is float64
+The numbers are the model's best estimate for ratings with respect to respective timestamps.
+These values are calculated using the linear relationship defined through function linregress.
+
+2. For every timestamp x, we apply the equation and get the predicted rating y. 
+Timestamps are a numeric proxy for dates. We use .timestamp() to convert to numeric timestamps for every datetime values.
+By doing this, we maintain a one-to-one correspondence between the original dates and the numeric values.

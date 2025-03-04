@@ -1,0 +1,10 @@
+Summary for data-5.csv:
+Mean of x: 49.90999357843095
+Standard Deviation of x: 28.500000943801364
+Range of x: (4.337892453674525, 91.0528633396976)
+Mean of y: 18.555524937729086
+Standard Deviation of y: 16.540796301840782
+Range of y: (0.0554975075811517, 49.93419703633311)
+Correlation Coefficient between x and y: -0.08823598983058886
+
+This dataset contains weakly negatively correlated variables x and y with wide range values.

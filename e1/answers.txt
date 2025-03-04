@@ -1,0 +1,3 @@
+1. I find Pandas to be easier to work with, as it requires less code and looks more compact. Thus, I believe Pandas code is easier to read. There are a few methods calls that require a little bit of reading beforehand, but in generally, it is more eligible than the NumPy code.
+
+2. The running time of pivot_month_pandas is 14.6 ms with an error of 3.38 ms. On the other hand, the running time of pivot_month_loops is 599 ms with an error of 8.21 ms. There are more loops performed in one run using Pandas than one run using NumPy.

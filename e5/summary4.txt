@@ -1,0 +1,11 @@
+Summary for data-4.csv:
+Mean of x: 49.90508614830509
+Standard Deviation of x: 28.508610519881927
+Range of x: (0.0, 87.3767)
+Mean of y: 18.553836525423726
+Standard Deviation of y: 16.545896442941686
+Range of y: (0.0, 44.56504)
+Correlation Coefficient between x and y: -0.08119306735490815
+
+This dataset shows almost no correlation between the two values x and y, suggesting independent variables.
+Plotting the dataset would give us the logo of SFU :)

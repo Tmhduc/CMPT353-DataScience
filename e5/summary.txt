@@ -1,0 +1,67 @@
+Summary for data-1.csv:
+Mean of x: 8.71769618641382
+Standard Deviation of x: 12.155517231222024
+Range of x: (-22.635877790008944, 35.23705548785129)
+Mean of y: 12.522874034702584
+Standard Deviation of y: 6.63996400756785
+Range of y: (-2.565087832693213, 27.38415261152477)
+Correlation Coefficient between x and y: 0.9503256954375483
+
+This dataset shows a strong positive correlation between x and y, with x and y values are widely distributed within each corresponding range.
+
+
+Summary for data-2.csv:
+Mean of x: -0.7107871267159572
+Standard Deviation of x: 11.481583587790734
+Range of x: (-33.2711130771198, 27.6470003722073)
+Mean of y: -0.7489869764497991
+Standard Deviation of y: 6.257917998755848
+Range of y: (-18.621803760419063, 14.14731499231748)
+Correlation Coefficient between x and y: 0.9551531665750373
+
+This dataset exhibits a strong positive correlation between the two values x and y, each centered around the zero value.
+
+Summary for data-3.csv:
+Mean of x: 0.9689074904200939
+Standard Deviation of x: 2.23555786105797
+Range of x: (-2.4490643296742807, 4.51888491755363)
+Mean of y: 8.508535236641327
+Standard Deviation of y: 1.1493008110024527
+Range of y: (6.641734490391763, 10.551871022804317)
+Correlation Coefficient between x and y: 0.9819372646760661
+
+This dataset contains a highly correlated positive relationship between x and y values, with low variance.
+
+Summary for data-4.csv:
+Mean of x: 49.90508614830509
+Standard Deviation of x: 28.508610519881927
+Range of x: (0.0, 87.3767)
+Mean of y: 18.553836525423726
+Standard Deviation of y: 16.545896442941686
+Range of y: (0.0, 44.56504)
+Correlation Coefficient between x and y: -0.08119306735490815
+
+This dataset shows almost no correlation between the two values x and y, suggesting independent variables.
+Plotting the dataset would give us the logo of SFU :)
+
+Summary for data-5.csv:
+Mean of x: 49.90999357843095
+Standard Deviation of x: 28.500000943801364
+Range of x: (4.337892453674525, 91.0528633396976)
+Mean of y: 18.555524937729086
+Standard Deviation of y: 16.540796301840782
+Range of y: (0.0554975075811517, 49.93419703633311)
+Correlation Coefficient between x and y: -0.08823598983058886
+
+This dataset contains weakly negatively correlated variables x and y with wide range values.
+
+Summary for data-6.csv:
+Mean of x: 7.21615517960992
+Standard Deviation of x: 11.921599067458313
+Range of x: (-24.33382075234097, 35.402138910929)
+Mean of y: 7.602215028237295
+Standard Deviation of y: 11.764382455006647
+Range of y: (-22.9563569970746, 36.07987403078143)
+Correlation Coefficient between x and y: 0.9350685662094905
+
+This dataset presents a strong positive correlation between the two values, following closely a best-fit line.

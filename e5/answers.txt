@@ -1,0 +1,7 @@
+1. Out of all the transforms suggested, square root transformation got me the closest to satisfying the assumptions of a T-test, which are normality and variances
+2. The pvalue of original data normality and equal-variance states that the average number of comments posted on weekdays is different from weekends.
+After applying the square root transformation, there's no different from the average number of comments posted on weekdays and weekends.
+3. The T-Test using Central Limit Theorem likely gives the most reliable answer for a few reasons:
+    - the Central Limit Theorem helps ensure the data is approximately normally distributed, satisfying the assumptions of the T-Test
+    - Grouping helps reducing the impact of outliers and daily fluctuations
+4. More comments are posted on weekdays than weekends.

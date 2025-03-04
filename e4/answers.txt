@@ -1,0 +1,5 @@
+1. Based on the result I got from the last question, I think daily temperatures and population density have a positive correlation.
+The bigger the average of maximum temperature of a city, the more population density it has. There are a couple of outliers but the trend still give us an insight that people tend to live in a warmer city.
+2. Using a compressed file is faster to work with than an uncompressed json file because we have a large amount of data.
+Compressing a large data json file will have us a smaller sized file on the disk. We will make less trip to the disk we cannot store all the data on the RAM.
+If the dataset is small adn frequent random access is required, then an uncompressed format may be more efficient. This is unfortunately not the case.

@@ -1,0 +1,5 @@
+1. When smoothing the CPU temperature, I think I get a better result with Kalman smoothing. 
+Kalman filtering gives me a more accurate estimation for each data points, whereas LOESS give me a general information as to how the data points are plotted
+2.With more data such as timestamp and speed, I could have made a better approximation of the duration it takes to reach the destination.
+I use mygpsfiles website to graph the gpx file and the time between original data points giving and that of smoothed data points is no much different.
+It tells us that we need to take into account more data to have better approximations.

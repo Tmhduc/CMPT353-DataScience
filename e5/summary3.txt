@@ -1,0 +1,10 @@
+Summary for data-3.csv:
+Mean of x: 0.9689074904200939
+Standard Deviation of x: 2.23555786105797
+Range of x: (-2.4490643296742807, 4.51888491755363)
+Mean of y: 8.508535236641327
+Standard Deviation of y: 1.1493008110024527
+Range of y: (6.641734490391763, 10.551871022804317)
+Correlation Coefficient between x and y: 0.9819372646760661
+
+This dataset contains a highly correlated positive relationship between x and y values, with low variance.

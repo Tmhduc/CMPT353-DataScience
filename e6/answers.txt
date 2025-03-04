@@ -1,0 +1,2 @@
+1. In the A/B test analysis, I believe that we are p-hacking. I don't think coming to a conclusion at p<0.05 would be comfortable enough for the dataset.
+We see that the might not be much difference in the 'all users' case, but for instructions only, the p-values are borderline significant at 0.05, suggesting a weak indication that the instructors may have searched more with the new design.
