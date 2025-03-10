@@ -51,7 +51,7 @@ def smooth_test(coef, sysinfo, outfile):
     X_valid, y_valid = sysinfo[X_columns], sysinfo[y_column]
     
     # feel free to tweak these if you think it helps.
-    transition_stddev = 0.5
+    transition_stddev = 0.8
     observation_stddev = 1.0
 
     dims = len(X_columns)

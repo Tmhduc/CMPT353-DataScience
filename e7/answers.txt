@@ -1,1 +1,3 @@
-2. Yes, the new 'better' prediction can help the Kalman filter do a better job of capturing true signal in the noise.
+1. The residual is not close enough to being normal to look at the p-value. I use shapiro to get the p-value and it is way much less than 0.05.
+In this case, p-values might be misleading. Thus, we cannot reasonably conclude that the ratings are increasing.
+2. Yes, the new 'better' prediction can help the Kalman filter do a better job of capturing true signal in the noise. The accuracy score drops from 0.55 to 0.48 suggesting some overfitting, but it's not extreme.
