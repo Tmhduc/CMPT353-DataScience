@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from skimage.color import lab2rgb, rgb2lab
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import FunctionTransformer
-from sklearn.pipeline import Pipeline
+from sklearn.pipeline import make_pipeline
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score
 import sys
@@ -110,10 +110,10 @@ def main(infile):
     # print(X_lab)
     # print([X_lab[:, 1:].max])
     
-    lab_pipeline = Pipeline([
-        ('rgb_to_lab', FunctionTransformer(rgb_to_lab_transform, validate=False)),
-        ('classifier', GaussianNB())
-    ])
+    lab_pipeline = make_pipeline(
+        FunctionTransformer(rgb_to_lab_transform, validate=False),
+        GaussianNB()
+    )
     # X_train_lab, X_test_lab, y_train_lab, y_test_lab = train_test_split(X_lab, y, test_size=0.4, random_state=42)
     # print(X_train_lab)
     # Train Naïve Bayes classifier on LAB data
